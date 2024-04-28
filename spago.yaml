@@ -1,0 +1,17 @@
+package:
+  name: ps-humdrum
+  dependencies:
+    - console
+    - effect
+    - foldable-traversable
+    - maybe
+    - prelude
+    - web-dom
+    - web-html
+  test:
+    main: Test.Main
+    dependencies: []
+workspace:
+  packageSet:
+    registry: 50.11.0
+  extraPackages: {}
